@@ -2,7 +2,7 @@ import time
 import BaseHTTPServer
 import os
 
-#Dados para colocar no html
+#Dados que não são atualizados constantemente
    
 model_name_Proc=os.popen('grep "model name" /proc/cpuinfo').read()  
 version=os.popen('grep PRETTY_NAME /etc/os-release').read() 
